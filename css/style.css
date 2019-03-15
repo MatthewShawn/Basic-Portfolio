@@ -204,8 +204,8 @@ a:hover {
 
 .box-set {
     position: relative;
-    height: 400px;
-    background: #dddddd;
+    height: 500px;
+    background: #ffffff;
 }
 
 .box {
@@ -238,6 +238,15 @@ a:hover {
     position: relative;
     right: 316px;
     bottom: -160px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.box-4 {
+    position: relative;
+    right: 633px;
+    bottom: -320px;
     width: 150px;
     height: 150px;
     border: 2px solid black;
@@ -292,5 +301,18 @@ a:hover {
     text-align: center;
     bottom: 10px;
     left: 161px;
+    padding-top: 10px;
+}
+
+.box-label-4 {
+    position: relative;
+    z-index: 20;
+    height: 30px;
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #dddddd;
+    text-align: center;
+    bottom: -110px;
+    left: 2px;
     padding-top: 10px;
 }
