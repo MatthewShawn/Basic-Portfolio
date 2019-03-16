@@ -4,6 +4,7 @@
     display: -webkit-flex;
     display: flex;
     width: 960px;
+    background-color: #ffffff;
 }
 
 .container2 {
